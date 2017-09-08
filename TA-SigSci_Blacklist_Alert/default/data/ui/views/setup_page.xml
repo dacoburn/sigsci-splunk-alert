@@ -1,0 +1,10 @@
+<dashboard script="setup.js" stylesheet="setup.css" hideAppBar="true" hideEdit="true" isDashboard="false">
+  <label>TA-SigSci_Blacklist_Alert</label>
+  <row>
+    <panel>
+      <html>
+        <div id="setup_page_container"/>
+      </html>
+    </panel>
+  </row>
+</dashboard>

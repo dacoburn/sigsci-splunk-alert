@@ -1,0 +1,42 @@
+[TA-Splunk_Blacklist_credential/default]
+owner = admin
+version = 6.5.2
+modtime = 1504828204.378379000
+
+[TA-Splunk_Blacklist_customized/default]
+owner = admin
+version = 6.5.2
+modtime = 1504828204.413168000
+
+[TA-Splunk_Blacklist/proxy_settings]
+version = 6.5.2
+modtime = 1504832825.128224000
+
+[TA-Splunk_Blacklist_customized/password]
+owner = admin
+version = 6.5.2
+modtime = 1504832825.188314000
+
+[TA-Splunk_Blacklist_customized/corp]
+owner = admin
+version = 6.5.2
+modtime = 1504832825.203077000
+
+[TA-Splunk_Blacklist_customized/email]
+owner = admin
+version = 6.5.2
+modtime = 1504832825.218159000
+
+[app/install/is_configured]
+version = 6.5.2
+modtime = 1504832825.903393000
+
+[passwords/credential%3ATA-Splunk_Blacklist%3Aproxy_settings%3A]
+owner = admin
+version = 6.5.2
+modtime = 1504832825.112114000
+
+[passwords/credential%3ATA-Splunk_Blacklist%3Apassword%3A]
+owner = admin
+version = 6.5.2
+modtime = 1504832825.171001000
