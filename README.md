@@ -59,7 +59,7 @@ With my configuration I have an NGINX Server that is using the NGINX Splunk Add-
     2. Search for and select "Notable"
     
        * **Title:** Signal Sciences Blacklist Event
-       * **Description:** This Adaptive Response was in relation to a high number of 404 from $result.src_ip$
+       * **Description:** This Adaptive Response was in relation to a high number of 404 errors
 
     3. Click "Add New Response Action"
     4. Search for and select "Blacklist IP Addition"
