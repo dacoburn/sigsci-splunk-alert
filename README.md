@@ -17,11 +17,11 @@ Once the Splunk App has been installed you will need to configure the shared set
 1. Log into the Splunk Web Portal and go to the Apps -> Manage Apps section
 2. Select Setup for the sigsci_TA_for_splunk app
 
-    ![screen1](screenshots/screen1.jpg "")
+    ![screen1](screenshots/screenshot1.jpg "")
 
 3. Specify the Signal Sciences user (Email Address), Password, and your Signal Sciences corp name
 
-    ![screen2](screenshots/screen2.jpg "")
+    ![screen2](screenshots/screenshot2.jpg "")
 
 ## Using with a Correlation Search
 
@@ -59,7 +59,7 @@ With my configuration I have an NGINX Server that is using the NGINX Splunk Add-
     2. Search for and select "Notable"
     
        * **Title:** Signal Sciences Blacklist Event
-       * **Description:** This Adaptive Response was in relation to a high number of 404 from $result.src_ip$
+       * **Description:** This Adaptive Response was in relation to a high number of 404 errors
 
     3. Click "Add New Response Action"
     4. Search for and select "Blacklist IP Addition"
@@ -75,11 +75,11 @@ With my configuration I have an NGINX Server that is using the NGINX Splunk Add-
   2. Go to Incident Review
   3. Look for Incidents with the title of "SigSci Blacklist Event"
       
-      ![screen3](screenshots/screen3.jpg "")
+      ![screen3](screenshots/screenshot3.jpg "")
       
   4. As long as the Incident Shows up you can now look in the Signal Sciences Dashboard for the Blacklisted IP.
   
-      ![screen4](screenshots/screen4.jpg "")
+      ![screen4](screenshots/screenshot4.jpg "")
       
 That's it, you can now auto create entries.
   
